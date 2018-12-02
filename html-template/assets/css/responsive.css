@@ -1,0 +1,267 @@
+/* ================================================== 
+*	Version: 1.0.0
+*	css code for responsive layout
+*	To make Responsive
+================================================== */
+
+/* ==================================================
+*	1 - media screen and (max-width: 1199px)
+*	2 - media screen and (max-width: 991px)
+*	3 - media screen and (max-width: 767px)
+*	4 - media screen and (max-width: 680px)
+*	5 - media screen and (max-width: 480px)
+*	6 - media screen and (max-width: 320px)
+================================================== */
+
+
+
+
+
+/*  ====================================================================================================
+1 - media screen and (max-width: 1199px) - start
+==================================================================================================== */
+
+@media screen and (max-width: 1199px) {
+
+	.header-bottom ul.main-menu>li a {padding: 5px 10px;}
+
+	.features-section {background-color: #f9f9f9;}
+	.features-section .features-items-area {display: none;}
+	.features-section ul.features-items-area2 {display: block;}
+	.features-section ul.features-items-area .feature-title h2,
+	.features-section ul.features-items-area2 .feature-title h2 {font-size: 24px;}
+
+	.partner-section {background-color: #f9f9f9;}
+	.partner-section ul.partner-list {display: none;}
+	.partner-section ul.partner-list2 {display: block;}
+
+	.right-sidebar {
+		padding: 0px;
+		max-width: 340px;
+		margin: 40px auto 0px;
+	}
+
+	.blog-details-contant h2.title-xlarge {font-size: 30px;}
+}
+
+/* ====================================================================================================
+1 - media screen and (max-width: 1199px) - end
+==================================================================================================== */
+
+
+
+
+
+/* ====================================================================================================
+2 - media screen and (max-width: 991px) - start --->>>for medium device
+==================================================================================================== */
+
+@media screen and (max-width: 991px) {
+	body {padding-top: 115px;}
+	
+	.header-section {display: none;}
+	.alt-navbar {display: block;}
+
+	.features-section ul.features-items-area2 {
+		box-shadow: none;
+		background: none;
+	}
+	.features-section ul.features-items-area2 li {
+		width: 100%;
+		border: none;
+		padding: 30px;
+		display: block;
+		border-radius: 3px;
+		margin-bottom: 30px;
+		background-color: #ffffff;
+	}
+	.features-section ul.features-items-area2 li:last-child {margin-bottom: 0px;}
+
+	.quote-section .quote-section-img,
+	.about-section .about-us-area {margin-bottom: 40px;}
+
+	.blog-section .blog {
+		max-width: 360px;
+		margin: 0 auto 30px;
+	}
+
+	.partner-section ul.partner-list2 {
+		background: none;
+		box-shadow: none;
+	}
+	.partner-section ul.partner-list2 li {
+		width: 100%;
+		border: none;
+		display: block;
+		border-radius: 3px;
+		margin-bottom: 30px;
+		background-color: #ffffff;
+	}
+	.partner-section ul.partner-list2 li:last-child {margin-bottom: 30px;}
+
+	.footer-top .social,
+	.footer-top .ftr-top-contant,
+	.footer-top .ftr-service-link,
+	.footer-top .ftr-quick-link,
+	.footer-top .ftr-location {margin-bottom: 30px;}
+
+	.contact-form {margin-bottom: 30px;}
+	.contact-section-title {padding: 0px 0px;}
+	.main-google-map-wrapper {padding: 0px 0px 80px;}
+
+	.main-contact-section .basic-info {
+		padding-right: 0px;
+		margin-bottom: 40px;
+	}
+
+	.main-contact-section .basic-info-item {height: 100px;}
+	.main-contact-section .basic-info-item span.icon {
+		width: 100px;
+		font-size: 36px;
+		line-height: 100px;
+		margin-right: 15px;
+	}
+	.main-contact-section .basic-info-item p {
+		font-size: 14px;
+		padding: 28px 0px;
+	}
+
+	.error-section .crash-img {text-align: center;}
+	.error-contant {
+		margin-top: 40px;
+		text-align: center;
+	}
+
+
+	.more-about-us .mission,
+	.more-about-us .vission,
+	.more-about-us .philosophy {
+		max-width: 360px;
+		text-align: center;
+		margin: 0 auto 30px;
+	}
+
+	.service-section .item {
+		max-width: 360px;
+		margin: 0 auto 30px;
+	}
+
+	.pagination {
+		width: 100%;
+		float: none;
+		display: table;
+		text-align: center;
+	}
+	.pagination .page-item {float: none !important;}
+
+	.blog .blog-contant h3.title-xlarge {font-size: 30px;}
+	ul.post-mate li.hero {margin-bottom: 5px;}
+}
+
+/* ====================================================================================================
+2 - media screen and (max-width: 991px) - end --->>>for medium device
+==================================================================================================== */
+
+
+
+
+
+/* ====================================================================================================
+3 - media screen and (max-width: 767px) - start --->>>For Mobile Device
+==================================================================================================== */
+
+@media screen and (max-width: 767px){}
+
+/* ====================================================================================================
+3 - media screen and (max-width: 767px) - end --->>>For Mobile Device
+==================================================================================================== */
+
+
+
+
+
+/* ====================================================================================================
+4 - media screen and (max-width: 680px) - start
+==================================================================================================== */
+
+@media screen and (max-width: 680px){}
+
+/* ====================================================================================================
+4 - media screen and (max-width: 680px) - end
+==================================================================================================== */
+
+
+
+
+
+/* ====================================================================================================
+5 - media screen and (max-width: 480px) - start
+==================================================================================================== */
+
+@media screen and (max-width: 480px){
+	.alt-navbar {padding: 30px 15px !important;}
+	.alt-navbar .navbar-brand {
+		margin: 0px;
+		width: 200px;
+		height: auto;
+	}
+	.navbar-toggler {margin: 0px;}
+
+	.search-body .search-form {width: 90%;}
+
+	.slider-section .overlay-white h1 {font-size: 30px;}
+	.slider-section .slick-dots {right: 15px;}
+	.slider-section .overlay-white {padding: 160px 0px;}
+
+	.footer-bottom {text-align: center;}
+	.footer-bottom .ftr-menu {
+		margin-top: 15px;
+		text-align: center !important;
+	}
+
+	.breadcrumb-title {font-size: 42px;}
+
+	.service-page .service-section .item {
+		max-width: 360px;
+		margin: 0 auto 30px;
+	}
+
+	.blog-section .blog-nav:before {display: none;}
+	.blog-section .blog-nav,
+	.blog-section .blog-nav .nav-item {
+		width: 100%;
+		display: block;
+	}
+	.blog-section .blog-nav .nav-item {margin-bottom: 5px;}
+	.blog-section .blog-nav .nav-item:last-child {margin-bottom: 0px;}
+}
+
+/* ====================================================================================================
+5 - media screen and (max-width: 480px) - end
+==================================================================================================== */
+
+
+
+
+
+/* ====================================================================================================
+6 - media screen and (max-width: 320px) - start
+==================================================================================================== */
+
+@media screen and (max-width: 320px){
+	.section-title h2 {font-size: 30px;}
+
+	.slider-section .overlay-white h1 {font-size: 24px;}
+
+	.features-section ul.features-items-area .feature-title h2,
+	.features-section ul.features-items-area2 .feature-title h2 {font-size: 24px;}
+
+	.breadcrumb-title {font-size: 36px;}
+
+	.blog .blog-contant h3.title-xlarge {font-size: 24px;}
+	.blog-details-contant h2.title-xlarge {font-size: 24px;}
+}
+
+/* ====================================================================================================
+6 - media screen and (max-width: 320px) - end
+==================================================================================================== */
