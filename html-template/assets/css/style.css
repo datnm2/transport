@@ -1458,6 +1458,22 @@ ol.breadcrumb {
 ================================================== */
 /* accordion reset - start
 -------------------------------------------------- */
+.welcome {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #C00D34;
+}
+.welcome-title {
+  padding-bottom: 10px;
+  color: #C00D34;
+  font-size: 30px;
+  font-weight: bolder;
+}
+.welcome-content {
+  /*color: #C00D34;*/
+  /*padding-bottom: 10px;*/
+}
 .question-area .accordion {
   margin-left: 25px;
   padding-left: 45px;
@@ -1757,7 +1773,12 @@ ol.breadcrumb {
 ==================================================================================================== */
 /* - 8.1 - about-section - start
 ================================================== */
-.about-section .more-about-us {padding-top: 100px;}
+.about-section .more-about-us {
+  padding-top: 50px;
+  background-color: #fdfdff;
+  padding-left: 10px;
+  padding-right: 10px;
+}
 
 .about-section ul.slickslide li img,
 .about-section .slick-dots button img {
