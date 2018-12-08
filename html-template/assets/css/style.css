@@ -127,8 +127,6 @@ span,small,i {
   display: inline-block;
 }
 
-
-
 input[type=date],
 input[type=datetime-local],
 input[type=email],
@@ -1481,7 +1479,7 @@ ol.breadcrumb {
 }
 .question-area .accordion .card {
   border: none;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 .question-area .accordion .card .card-header {padding: 15px;}
 .question-area .accordion .card .card-body {
@@ -2190,3 +2188,12 @@ ul.blog-share-links li:hover:after {
 .error-section .error-contant h2 {font-size: 150px;}
 /* - 12 - 404 error page - end
 ==================================================================================================== */
+
+/* cne styles */
+html {
+  scroll-behavior: smooth;
+}
+.brand-logo img {
+  height: 120px;
+  margin-top: -30px;
+}
