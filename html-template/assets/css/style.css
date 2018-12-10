@@ -89,6 +89,9 @@ h1,h2,h3,h4,h5,h6 {
   margin: 0;
   padding: 0;
 }
+b, strong {
+  font-weight: 700;
+}
 button,
 button:focus,
 button:active,
@@ -745,7 +748,6 @@ button {
   width: 100%;
   display: block;
   color: #050505;
-  font-style: 16px;
   text-align: left;
   border-radius: 3px;
   padding: 10px 25px !important;
@@ -2196,4 +2198,122 @@ html {
 .brand-logo img {
   height: 120px;
   margin-top: -30px;
+}
+
+.process-title {
+  color: #C00D34;
+  text-align: center;
+}
+.procedure-all{
+  display: inline-block;
+  width: 100%;
+  margin-top: 40px;
+  padding-left: 20px;
+}
+.procedure-detail{
+  width: 20%;
+  float: left;
+  position: relative;
+}
+.procedure-detail .line-step{
+  width: 72px;
+  height: 19px;
+}
+.procedure-detail .line-step span{
+  width: 72px;
+  height: 19px;
+  position: absolute;
+  right: -35px;
+  top: 55px;
+}
+.procedure-detail .line-step span.line-step1{
+  background: url('../images/process/next.png') no-repeat 0 0;
+}
+.procedure-detail .line-step span.line-step2{
+  background: url('../images/process/next.png') no-repeat 0 0;
+}
+.procedure-detail .pd-img{
+  position: relative;
+  text-align: center;
+  margin: 0 auto;
+  /*width: 136px;*/
+  height: 136px;
+  margin-bottom: 10px;
+}
+.procedure-detail .pd-img span{
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  width: 136px;
+  height: 136px;
+}
+.procedure-detail .pd-img span#pdi1{
+  background: url('../images/process/1-register.png') no-repeat;
+}
+.procedure-detail .pd-img span#pdi2{
+  background: url('../images/process/2-choose.png') no-repeat;
+}
+.procedure-detail .pd-img span#pdi3{
+  background: url('../images/process/3-taodonhang.png') no-repeat;
+}
+.procedure-detail .pd-img span#pdi4{
+  background: url('../images/process/4-datcoc2.png') no-repeat;
+}
+.procedure-detail .pd-img span#pdi5{
+  background: url('../images/process/5-vanchuyen.png') no-repeat;
+}
+.procedure-detail .pd-img span#pdi6{
+  background: url('../images/process/6-recieve2.png') no-repeat;
+}
+
+.procedure-detail .pd-text{
+  text-align: center;
+  margin-left: -70px;
+}
+.procedure-detail .pd-text label{
+  color: #C00D34;
+  font-size: 20px;
+  margin-bottom: 0;
+}
+.procedure-detail .pd-text p{
+  font-size: 14px;
+  color: #333;
+  height: 40px;
+  /*overflow: hidden;*/
+}
+.procedure-detail .pd-text p a{
+  color: #333;
+}
+.next-process {
+  width: 50px;
+  /*height: 50px;*/
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.ad-btn {
+  text-align: center;
+  display: inline-block;
+  width: 100%;
+  padding: 60px 0 0 0;
+}
+.ad-btn button:hover {
+  cursor: pointer;
+}
+.ad-btn button {
+  border: 0;
+  border-radius: 3px;
+  border: 1px solid #C00D34;
+  background: #C00D34;
+  color: #fff;
+  padding: 10px 48px;
+  text-transform: uppercase;
+  outline: none;
+}
+.ad-btn button:hover {
+  border: 1px solid #C00D34;
+  background: transparent;
+  color: #C00D34;
 }
