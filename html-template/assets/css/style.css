@@ -197,7 +197,7 @@ textarea:focus:not([readonly]) {
 
 
 
-/* customization of unorder list - start 
+/* customization of unorder list - start
 -------------------------------------------------- */
 ul.ul-li,
 ul.ul-li-block {
@@ -224,7 +224,7 @@ ul.rateing-star li.rateing-point {
 
 
 
-/* mate tag - start 
+/* mate tag - start
 -------------------------------------------------- */
 .post-mate {padding: 15px 0px;}
 .post-mate li {
@@ -303,7 +303,7 @@ ul.rateing-star li.rateing-point {
 
 
 
-/* padding - margin setting - start 
+/* padding - margin setting - start
 -------------------------------------------------- */
 .sec-ptb-100 {padding: 100px 0px;}
 
@@ -1402,15 +1402,21 @@ ol.breadcrumb {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
+  color: white;
 }
-.air-freight-bg {background-image: url(../images/service/img1.jpg);}
-.sea-freight-bg {background-image: url(../images/service/img2.jpg);}
-.land-transport-bg {background-image: url(../images/service/img3.jpg);}
+.service-section h4 {
+  color: #C00D34;
+}
+.service-order {background-image: url(../images/service/service-order.jpg);}
+.service-storehouse {background-image: url(../images/service/service-storehouse.jpg);}
+.service-payment {background-image: url(../images/service/service-payment.jpg);}
+.service-transport {background-image: url(../images/service/service-transport.jpg);}
 
 .service-section .item .overlay-white {
   padding: 30px;
   border: 2px solid #e5e5e5;
-  background-color: rgba(255,255,255,0.9);
+  /*background-color: rgba(255,255,255,0.5);*/
+  background-color: #212529a8;
 
   -webkit-transition: all .3s ease-in-out;
   -moz-transition: all .3s ease-in-out;
@@ -1427,6 +1433,7 @@ ol.breadcrumb {
   position: absolute;
   text-align: center;
 }
+
 /* service-slider > item - end
 -------------------------------------------------- */
 /* - 7.3 - service-section - end
