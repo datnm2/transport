@@ -1483,7 +1483,7 @@ ol.breadcrumb {
 .quote-section {
   overflow: hidden;
   position: relative;
-  background-color: #f7f7f7;
+  background-color: #f7f7f75e;
 }
 .quote-section span.bg-icon {
   top: -200px;
@@ -2344,6 +2344,10 @@ html {
   width: 100%;
   padding: 60px 0 0 0;
 }
+.ad-btn a {
+  width: 200px;
+  margin-bottom: 10px;
+}
 .ad-btn button:hover {
   cursor: pointer;
 }
@@ -2353,9 +2357,10 @@ html {
   border: 1px solid #C00D34;
   background: #C00D34;
   color: #fff;
-  padding: 10px 48px;
+  padding: 10px 20px;
   text-transform: uppercase;
   outline: none;
+  width: 100%;
 }
 .ad-btn button:hover {
   border: 1px solid #C00D34;
